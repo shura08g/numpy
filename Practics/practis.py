@@ -1,0 +1,15 @@
+x = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+i = 5
+
+print(x)
+print(x[i])
+x[i] = ++i
+print(x)
+print(i)
+print(x[i])
+
+nums = [9, 8, 7, 6, 5]
+nums.append(4)
+nums.insert(2, 11)
+print(len(nums))
+print(nums)
