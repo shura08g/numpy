@@ -10,6 +10,6 @@ people = [
 ]
 
 for name, midlname, balance, g in people:
-    text = f"""\t{gender.get(g)} {name} {midlname}, 
+    text = f"""\t{gender.get(g)} {name} {midlname},
 баланс Вашего лицевого счета составляет: {balance}$"""
     print(text)
